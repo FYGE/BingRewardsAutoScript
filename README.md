@@ -1,0 +1,2 @@
+MicrosoftRewardsAutoScript
+微软rewards 自动搜索获取积分脚本
