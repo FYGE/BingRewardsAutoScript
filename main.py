@@ -1,7 +1,5 @@
 import subprocess
 import sys
-import PCscript
-import PhoneScript
 def install_requirements():
     subprocess.check_call([
         sys.executable, "-m", "pip", "install", "-r", "requirements.txt"
@@ -15,6 +13,8 @@ def install_requirements():
 
 
 if __name__ == "__main__":
-    # install_requirements()
+    install_requirements()
+    import PCscript
+    import PhoneScript
     PCscript.StartPCBing()
     PhoneScript.StartPhoneBing()
